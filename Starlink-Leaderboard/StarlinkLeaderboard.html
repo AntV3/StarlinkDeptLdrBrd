@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starlink-Production</title>
+    <link rel="function" href="app.js">
+    <link rel="stylesheet" href="stylsheet.css">
+   
+    <style>
+        body {
+            background-color: calc();
+            background-image: image-set('Starlink.jpg');
+
+        }
+        caption {
+            font-size: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-stretch: extra-expanded;
+        }
+
+        thead {
+            background-color: goldenrod;
+            font-size: 30px;
+            font-style: oblique;
+
+        }
+        
+
+    
+    </style>
+   
+</head>
+<body>
+    <table border="10" height="100" width="1180"> 
+        <caption> Starlink </caption>
+        <thead>
+            <!-- Define names for each table section-->
+            <tr>
+                <th colspan="50">(*DEPT NAME) TOP PERFORMERS</th>
+            </tr>
+        </thead>
+        <!-- Names And Achievemnts -->
+        <tbody> 
+           <tr>
+            <td>Name 1</td>
+            <td>Achievment 1</td> 
+            
+           
+           </tr>
+           
+           <tr>
+            <td>Name 2</td>
+            <td>Achievment 2</td>
+        
+          
+           </tr>
+    
+           <tr>
+            <td> Name 3</td>
+            <td> Achievment 3</td>
+           
+           
+           </tr>
+    
+    
+        </tbody>
+
+       </table>
+    
+    
+   <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="Starlink.jpg" style="width:100%">
+      <div class="text">Achievment 1</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="Starlink.jpg" style="width:100%">
+      <div class="text">Achievment 2</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Starlink.jpg" style="width:100%">
+      <div class="text">Achievment 3</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+    
+</body>
+</html>
